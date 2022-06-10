@@ -3,14 +3,16 @@ services:
   worker:
     build: .
     environment:
-      TG_BOT_TOKEN:
-      APP_ID:
-      API_HASH:
-      CHANNEL_ID:
-      OWNER_ID:
-      DB_URI:
-      FORCE_SUB_CHANNEL:
-      TG_BOT_WORKERS:
-      START_MSG:
+      TG_BOT_TOKEN: 5071513445:AAHu03aJqQ2728J6RbYFF23JlYXG3JtYa0g
+      APP_ID: 8967766
+      API_HASH: 505dc1f394f59c8a55b1aa798a0715f9
+      CHANNEL_ID: -1001738196053
+      OWNER_ID: 1989750989
+      DB_URI: postgres://sunffggjuzprgg:794125ee1969dbc3c5f7aea499148a275188a5b0aedba991a551487ce91cf08b@ec2-3-209-124-113.compute-1.amazonaws.com:5432/ddtdehpci81ulr
+      FORCE_SUB_CHANNEL: -1001435638564
+      START_MESSAGE: Hello {mention}\n\nI can store private files in Specified Channel and other users can access it from special link
+      FORCE_SUB_MESSAGE: Hello {mention}\n\n<b>You need to join in my [Movies Channel](https://t.me/+r9qx47U5xEZjY2E1) to use me\n\nKindly Please join Channel</b>
+      ADMINS: 1989750989
+
 
 
